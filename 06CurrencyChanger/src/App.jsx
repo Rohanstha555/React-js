@@ -53,10 +53,10 @@ function App() {
             Currency Converter
           </h2>
           <form
-            onSubmit={(e) => {
-              e.preventDefault();
-              convert();
-            }}
+            // onSubmit={(e) => {
+            //   e.preventDefault();
+            //   convert();
+            // }}
           >
             <div className="w-full mb-1">
               <InputBox
