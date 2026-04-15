@@ -4,13 +4,13 @@ export const TodoContext = createContext({
   todos: [
     {
       id: 1,
-      todoMsg: "making todo",
+      todo: "making todo",
       checked: false,
     },
   ],
 
-  addTodo: (todoMsg) => {},
-  updateTodo: (id, todoMsg) => {},
+  addTodo: (todo) => {},
+  updateTodo: (id, todo) => {},
   deleteTodo: (id) => {},
   togglecheckedTodo: (id) => {},
 });
