@@ -16,3 +16,8 @@ npx tailwindcss init -p
 //////////////////////////////////////////
 
 npm install react-router-dom
+
+///////////////redux toolkit/////////////////////
+
+npm install @reduxjs/toolkit
+npm install react-redux
